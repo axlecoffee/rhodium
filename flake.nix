@@ -48,10 +48,10 @@
       # inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    iridium-rh = {
-      url = "git+ssh://git@github.com/pabloagn/iridium.rh.git";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    #iridium-rh = {
+    #  url = "git+ssh://git@github.com/pabloagn/iridium.rh.git";
+    #  inputs.nixpkgs.follows = "nixpkgs";
+   # };
 
     # astal = {
     #   url = "github:aylur/astal";
@@ -78,7 +78,7 @@
       kanso-nvim,
       chiaroscuro,
       rhodium-alloys,
-      iridium-rh,
+      #iridium-rh,
     }@inputs:
     let
       lib = nixpkgs.lib;
