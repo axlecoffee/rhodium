@@ -30,7 +30,7 @@ final: prev: {
               owner = "JetBrains";
               repo = "JetBrainsMono";
               rev = "v2.304";
-              sha256 = "sha256-Mw6+9nH3eBfURjSWCKPHXsZKIX8qo9AuTLYRu2Xc5z4=";
+              sha256 = "sha256-SW9d5yVud2BWUJpDOlqYn1E1cqicIHdSZjbXjqOAQGw=";
             };
             fonts = {
               "fonts/ttf/JetBrainsMono-Bold.ttf" = {
