@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "A hypermodular NixOS system built to stand the test of time.",
   "license": "MIT",
-  "repository": "https://github.com/pabloagn/rhodium",
+  "repository": "https://github.com/axle/rhodium",
   "author": {
-    "name": "Pablo Aguirre",
-    "email": "pablo.aguirre@solenoidlabs.com",
-    "website": "https://rhodium.solenoidlabs.com"
+    "name": "Axle",
+    "email": "axle@axlecoffee.com",
+    "website": "https://rhodium.axlecoffee.com"
   }
 }

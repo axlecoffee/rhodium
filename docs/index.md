@@ -16,7 +16,7 @@ permalink: /
 ## Get Started
 
 ```bash
-git clone https://github.com/pabloagn/rhodium
+git clone https://github.com/axle/rhodium
 sudo nixos-rebuild build --flake .#your-hostname
 sudo nixos-rebuild switch --flake .#your-hostname
 ```

@@ -15,7 +15,7 @@ with lib;
     # For this to work, the following needs to be run:
     #   sudo loginctl enable-linger {username}
     # Where {username} = user name
-    users.extraUsers.pabloagn.linger = true;
+    users.extraUsers.axle.linger = true;
     services.udev.extraRules = ''
       ACTION=="add", SUBSYSTEM=="input", KERNEL=="event*", \
         ATTRS{idVendor}=="3434", ATTRS{idProduct}=="0311", \

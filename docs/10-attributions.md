@@ -70,4 +70,4 @@ Special thanks to the NixOS community, Hyprland community, and all the contribut
 
 ## License
 
-Rhodium is released under the same spirit of open-source collaboration that inspired its creation. See the [LICENSE](https://github.com/pabloagn/rhodium/blob/main/LICENSE) file for specific details.
+Rhodium is released under the same spirit of open-source collaboration that inspired its creation. See the [LICENSE](https://github.com/axle/rhodium/blob/main/LICENSE) file for specific details.

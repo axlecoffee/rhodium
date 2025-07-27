@@ -4,7 +4,7 @@ ignore-empty-password
 show-failed-attempts
 
 # Background
-image=/home/pabloagn/.local/share/wallpapers/dante/wallpaper-01.jpg
+image=/home/axle/.local/share/wallpapers/dante/wallpaper-01.jpg
 scaling=fill
 color=1a1a1aff
 

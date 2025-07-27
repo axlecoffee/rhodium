@@ -30,7 +30,7 @@
 
   # Host Configuration
   networking = {
-    hostName = "alexandria";
+    hostName = "axlecoffee";
     networkmanager.enable = true;
   };
 

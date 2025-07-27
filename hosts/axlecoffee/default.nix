@@ -34,7 +34,7 @@
   # Power management
   powerManagement = {
     enable = true;
-    cpuFreqGovernor = "preformance";
+    cpuFreqGovernor = "performance";
   };
 
   # Hardware

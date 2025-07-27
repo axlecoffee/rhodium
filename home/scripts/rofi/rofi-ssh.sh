@@ -7,12 +7,12 @@ ssh_menu() {
 
     # Define SSH connections
     local options=(
-        "⊹ Connect to Alexandria <i>(Main Server)</i>"
-        "⊹ Connect to Alexandria (Root) <i>(Admin Access)</i>"
-        "⊹ SFTP to Alexandria <i>(File Transfer)</i>"
-        "⊹ SSH Tunnel to Alexandria <i>(Port Forward)</i>"
-        "⊹ Mount Alexandria via SSHFS <i>(Remote Filesystem)</i>"
-        "⊹ Check Alexandria Status <i>(Ping Test)</i>"
+        "⊹ Connect to Axlecoffee <i>(Main Server)</i>"
+        "⊹ Connect to Axlecoffee (Root) <i>(Admin Access)</i>"
+        "⊹ SFTP to Axlecoffee <i>(File Transfer)</i>"
+        "⊹ SSH Tunnel to Axlecoffee <i>(Port Forward)</i>"
+        "⊹ Mount Axlecoffee via SSHFS <i>(Remote Filesystem)</i>"
+        "⊹ Check Axlecoffee Status <i>(Ping Test)</i>"
     )
 
     selected=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -P "λ " -theme "$ROFI_THEME" -markup-rows)
@@ -22,43 +22,43 @@ ssh_menu() {
     TERM_CMD="kitty -e"
 
     case "$selected" in
-    *"Connect to Alexandria (Root)"*)
-        $TERM_CMD ssh root@alexandria
+    *"Connect to Axlecoffee (Root)"*)
+        $TERM_CMD ssh root@axlecoffee
         ;;
-    *"Connect to Alexandria"*)
-        $TERM_CMD ssh alexandria
+    *"Connect to Axlecoffee"*)
+        $TERM_CMD ssh axlecoffee
         ;;
-    *"SFTP to Alexandria"*)
-        $TERM_CMD sftp alexandria
+    *"SFTP to Axlecoffee"*)
+        $TERM_CMD sftp axlecoffee
         ;;
-    *"SSH Tunnel to Alexandria"*)
+    *"SSH Tunnel to Axlecoffee"*)
         # Get port for tunnel
         port=$(rofi -dmenu -P "Local port: " -theme "$ROFI_THEME")
         [[ -z "$port" ]] && return
         remote_port=$(rofi -dmenu -P "Remote port: " -theme "$ROFI_THEME")
         [[ -z "$remote_port" ]] && return
 
-        $TERM_CMD ssh -L "$port:localhost:$remote_port" alexandria
-        notify-send "SSH" "Tunnel created: localhost:$port -> alexandria:$remote_port"
+        $TERM_CMD ssh -L "$port:localhost:$remote_port" axlecoffee
+        notify-send "SSH" "Tunnel created: localhost:$port -> axlecoffee:$remote_port"
         ;;
-    *"Mount Alexandria via SSHFS"*)
+    *"Mount Axlecoffee via SSHFS"*)
         # Create mount point if it doesn't exist
-        mount_point="$HOME/mnt/alexandria"
+        mount_point="$HOME/mnt/axlecoffee"
         mkdir -p "$mount_point"
 
         # Check if already mounted
         if mountpoint -q "$mount_point"; then
             # Unmount
             fusermount -u "$mount_point"
-            notify-send "SSHFS" "Unmounted Alexandria from $mount_point"
+            notify-send "SSHFS" "Unmounted Axlecoffee from $mount_point"
         else
             # Mount
-            sshfs alexandria: "$mount_point"
-            notify-send "SSHFS" "Mounted Alexandria to $mount_point"
+            sshfs axlecoffee: "$mount_point"
+            notify-send "SSHFS" "Mounted Axlecoffee to $mount_point"
         fi
         ;;
-    *"Check Alexandria Status"*)
-        $TERM_CMD bash -c "ping -c 4 alexandria && echo 'Press Enter to close...' && read"
+    *"Check Axlecoffee Status"*)
+        $TERM_CMD bash -c "ping -c 4 axlecoffee && echo 'Press Enter to close...' && read"
         ;;
     esac
 }

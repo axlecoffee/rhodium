@@ -34,22 +34,22 @@
     };
 
     kanso-nvim = {
-      url = "github:pabloagn/kanso.nvim"; # NOTE: Personal fork
+      url = "github:axle/kanso.nvim"; # NOTE: Personal fork
       flake = false;
     };
 
     chiaroscuro = {
-      url = "github:pabloagn/chiaroscuro.rht";
+      url = "github:axle/chiaroscuro.rht";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
     rhodium-alloys = {
-      url = "github:pabloagn/alloys.rhf";
+      url = "github:axle/alloys.rhf";
       # inputs.nixpkgs.follows = "nixpkgs";
     };
 
     #iridium-rh = {
-    #  url = "git+ssh://git@github.com/pabloagn/iridium.rh.git";
+    #  url = "git+ssh://git@github.com/axle/iridium.rh.git";
     #  inputs.nixpkgs.follows = "nixpkgs";
    # };
 

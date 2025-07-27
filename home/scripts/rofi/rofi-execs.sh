@@ -2,7 +2,7 @@
 # TODO: Complete this
 
 # Path to the directory containing the scripts
-SCRIPT_DIR="/home/pabloagn/.dotfiles/user/desktop/rofi/scripts/executables"
+SCRIPT_DIR="/home/axle/.dotfiles/user/desktop/rofi/scripts/executables"
 
 # Prepare the list of titles and descriptions
 MENU_ENTRIES=""
@@ -17,7 +17,7 @@ for script in "$SCRIPT_DIR"/*.sh; do
 done
 
 # Show Rofi menu and capture the selected title
-chosen=$(echo -e "$MENU_ENTRIES" | rofi -dmenu -markup-rows -theme "/home/pabloagn/.dotfiles/user/desktop/rofi/themes/style-4.rasi" -i -p "Select Script:")
+chosen=$(echo -e "$MENU_ENTRIES" | rofi -dmenu -markup-rows -theme "/home/axle/.dotfiles/user/desktop/rofi/themes/style-4.rasi" -i -p "Select Script:")
 
 # Find and execute the selected script
 if [ -n "$chosen" ]; then

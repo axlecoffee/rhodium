@@ -19,9 +19,9 @@ in
       type = types.path;
       default = config.home.homeDirectory + "/.config/kmonad/justine.kbd";
     };
-    alexandriaConfigFile = mkOption {
+    axlecoffeeConfigFile = mkOption {
       type = types.path;
-      default = config.home.homeDirectory + "/.config/kmonad/alexandria.kbd";
+      default = config.home.homeDirectory + "/.config/kmonad/axlecoffee.kbd";
     };
     extraArgs = mkOption {
       type = types.listOf types.str;
@@ -29,7 +29,7 @@ in
     };
   };
   config = mkIf cfg.enable {
-    systemd.user.services.rh-kmonad-alexandria = {
+    systemd.user.services.rh-kmonad-axlecoffee = {
       Unit.PartOf = [ "graphical-session.target" ];
       Unit.Wants = [ "dbus-org.freedesktop.Notifications.service" ];
       Unit.After = [
@@ -39,7 +39,7 @@ in
       Unit.ConditionPathExists = "/dev/input/event4";
       Service.Type = "simple";
       Service.ExecStart =
-        "${pkgs.kmonad}/bin/kmonad ${cfg.alexandriaConfigFile} " + (lib.concatStringsSep " " cfg.extraArgs);
+        "${pkgs.kmonad}/bin/kmonad ${cfg.axlecoffeeConfigFile} " + (lib.concatStringsSep " " cfg.extraArgs);
       Service.Restart = "on-failure";
       Service.RestartSec = 1;
       Service.Nice = -5;

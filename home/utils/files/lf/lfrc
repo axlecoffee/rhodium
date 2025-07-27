@@ -135,22 +135,22 @@ map ra push :renamea<space>
 map g
 
 # Go to .config
-map gc cd /home/pabloagnck/.config
+map gc cd /home/axle/.config
 
 # Go to Documents
-map gx cd /home/pabloagnck/Documents
+map gx cd /home/axle/Documents
 
 # Go to Pictures
-map gp cd /home/pabloagnck/Pictures
+map gp cd /home/axle/Pictures
 
 # Go to Downloads
-map gd cd /home/pabloagnck/Downloads
+map gd cd /home/axle/Downloads
 
 # Go to script files dir
-map gb cd /home/pabloagnck/bin
+map gb cd /home/axle/bin
 
 # Go to 60GB
-# map g6 cd /run/media/pabloagnck/60GB
+# map g6 cd /run/media/axle/60GB
 
 # Go to home
 map gh cd ~

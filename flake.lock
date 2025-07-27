@@ -9,13 +9,13 @@
       "locked": {
         "lastModified": 1749566786,
         "narHash": "sha256-UrAaQr4HYo2vbgSaIPeRTk8xxfaMIG6OTWnzjBgF/eI=",
-        "owner": "pabloagn",
+        "owner": "axle",
         "repo": "chiaroscuro.rht",
         "rev": "443ddc4c31e0c141624452723d05db19c2865c0c",
         "type": "github"
       },
       "original": {
-        "owner": "pabloagn",
+        "owner": "axle",
         "repo": "chiaroscuro.rht",
         "type": "github"
       }
@@ -146,11 +146,11 @@
         "rev": "1b00db82a17e89c7aec948c41c11642e6256907f",
         "revCount": 2,
         "type": "git",
-        "url": "ssh://git@github.com/pabloagn/iridium.rh.git"
+        "url": "ssh://git@github.com/axle/iridium.rh.git"
       },
       "original": {
         "type": "git",
-        "url": "ssh://git@github.com/pabloagn/iridium.rh.git"
+        "url": "ssh://git@github.com/axle/iridium.rh.git"
       }
     },
     "kanso-nvim": {
@@ -158,13 +158,13 @@
       "locked": {
         "lastModified": 1750683833,
         "narHash": "sha256-Dk1DxgQnx7YiO659Y+X5v9ZLe/ujpiJWuxIFHUTKRUA=",
-        "owner": "pabloagn",
+        "owner": "axle",
         "repo": "kanso.nvim",
         "rev": "691f9cec91c49ff7101f1fb27c3f57e1cf6049f6",
         "type": "github"
       },
       "original": {
-        "owner": "pabloagn",
+        "owner": "axle",
         "repo": "kanso.nvim",
         "type": "github"
       }
@@ -263,13 +263,13 @@
       "locked": {
         "lastModified": 1749539938,
         "narHash": "sha256-rN7fN7UsUURG4a8jvvBe9w6fzon4JW36HDVJZKdba10=",
-        "owner": "pabloagn",
+        "owner": "axle",
         "repo": "alloys.rhf",
         "rev": "bacc8c2693980e1ae3faafcf4ddfb9b01151eb81",
         "type": "github"
       },
       "original": {
-        "owner": "pabloagn",
+        "owner": "axle",
         "repo": "alloys.rhf",
         "type": "github"
       }

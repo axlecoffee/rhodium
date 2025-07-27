@@ -9,7 +9,7 @@
 
 <div align ="center">
 
-[![Last Commit](https://img.shields.io/github/last-commit/pabloagn/rhodium?style=for-the-badge&logo=git&logoColor=white&color=7AA89F&labelColor=000000&label=LAST%20COMMIT)](https://github.com/pabloagn/rhodium/commits/main) [![License](https://img.shields.io/github/license/pabloagn/rhodium?style=for-the-badge&color=7AA89F&labelColor=000000)](https://github.com/pabloagn/rhodium/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/axle/rhodium?style=for-the-badge&logo=git&logoColor=white&color=7AA89F&labelColor=000000&label=LAST%20COMMIT)](https://github.com/axle/rhodium/commits/main) [![License](https://img.shields.io/github/license/axle/rhodium?style=for-the-badge&color=7AA89F&labelColor=000000)](https://github.com/axle/rhodium/blob/main/LICENSE)
 
 [![Made with Nix](https://img.shields.io/badge/Made%20with-Nix-7AA89F?style=for-the-badge&logo=nixos&logoColor=white&labelColor=000000)](https://nixos.org/)
 [![Made with Lua](https://img.shields.io/badge/Made%20with-Lua-7AA89F?style=for-the-badge&logo=lua&logoColor=white&labelColor=000000)](https://www.lua.org/)
@@ -25,11 +25,11 @@
 <div align="center">
     <div id="docs">
         <p style="text-align:center;">
-        <a href="https://pabloagn.github.io/rhodium/">
+        <a href="https://axle.github.io/rhodium/">
         <img src="https://img.shields.io/badge/∙ Documentation ∙-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
-        <a href="https://pabloagn.github.io/rhodium/">
+        <a href="https://axle.github.io/rhodium/">
         <img src="https://img.shields.io/badge/∙ Contact ∙-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
-        <a href="https://pabloagn.github.io/rhodium/">
+        <a href="https://axle.github.io/rhodium/">
         <img src="https://img.shields.io/badge/∙ Contributions ∙-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
     </div>
 </div>
@@ -44,17 +44,17 @@ This hypermodular configuration combines the declarative power of Nix with 150+ 
 <div align="center">
     <div id="images">
         <p style="text-align:center;">
-        <a href="https://github.com/pabloagn/rhodium#-features-1">
+        <a href="https://github.com/axle/rhodium#-features-1">
         <img src="https://img.shields.io/badge/Robust-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
-        <a href="https://github.com/pabloagn/rhodium#-features-1">
+        <a href="https://github.com/axle/rhodium#-features-1">
         <img src="https://img.shields.io/badge/Fast-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
-        <a href="https://github.com/pabloagn/rhodium#-features-1">
+        <a href="https://github.com/axle/rhodium#-features-1">
         <img src="https://img.shields.io/badge/Elegant-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
-        <a href="https://github.com/pabloagn/rhodium#-features-1">
+        <a href="https://github.com/axle/rhodium#-features-1">
         <img src="https://img.shields.io/badge/Reliable-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
-        <a href="https://github.com/pabloagn/rhodium#-features-1">
+        <a href="https://github.com/axle/rhodium#-features-1">
         <img src="https://img.shields.io/badge/Reproducible-f2f2f2?style=for-the-badge"/></a>&nbsp&nbsp
-        <a href="https://github.com/pabloagn/rhodium#-features-1">
+        <a href="https://github.com/axle/rhodium#-features-1">
         <img src="https://img.shields.io/badge/Secure-f2f2f2?style=for-the-badge"/></a>
     </div>
 </div>

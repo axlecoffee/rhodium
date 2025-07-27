@@ -15,7 +15,7 @@ test_basic() {
 test_explicit() {
     echo "2. Testing with explicit flags (ignoring config)..."
     swaylock \
-        --image /home/pabloagn/.local/share/wallpapers/dante/wallpaper-01.jpg \
+        --image /home/axle/.local/share/wallpapers/dante/wallpaper-01.jpg \
         --scaling fill \
         --color 1a1a1aff \
         --font "JetBrains Mono Nerd Font" \
@@ -60,7 +60,7 @@ quick_lock() {
 # Alternative minimal lock (no indicator)
 minimal_lock() {
     swaylock \
-        --image /home/pabloagn/.local/share/wallpapers/dante/wallpaper-01.jpg \
+        --image /home/axle/.local/share/wallpapers/dante/wallpaper-01.jpg \
         --scaling fill \
         --no-unlock-indicator
 }

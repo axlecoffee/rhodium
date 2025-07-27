@@ -1,7 +1,7 @@
 title: Rhodium
 description: A hypermodular NixOS system built to stand the test of time
 baseurl: "/rhodium"
-url: "https://pabloagn.github.io"
+url: "https://axle.github.io"
 
 # Just the Docs theme
 remote_theme: just-the-docs/just-the-docs
@@ -21,7 +21,7 @@ search:
 nav_sort: case_insensitive
 
 # Footer content
-footer_content: "Copyright &copy; 2025 Rhodium. Built with NixOS and distributed under the <a href=\"https://github.com/pabloagn/rhodium/blob/main/LICENSE\">MIT License</a>."
+footer_content: "Copyright &copy; 2025 Rhodium. Built with NixOS and distributed under the <a href=\"https://github.com/axle/rhodium/blob/main/LICENSE\">MIT License</a>."
 
 # Color scheme
 color_scheme: light
@@ -32,7 +32,7 @@ logo: "/assets/logo.png"
 # Aux links for the upper right navigation
 aux_links:
   "GitHub Repository":
-    - "https://github.com/pabloagn/rhodium"
+    - "https://github.com/axle/rhodium"
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
@@ -47,7 +47,7 @@ back_to_top_text: "Back to top"
 # Footer "Edit this page" link text
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/pabloagn/rhodium"
+gh_edit_repository: "https://github.com/axle/rhodium"
 gh_edit_branch: "main"
 gh_edit_source: docs
 gh_edit_view_mode: "tree"

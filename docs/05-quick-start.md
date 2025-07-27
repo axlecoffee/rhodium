@@ -78,7 +78,7 @@ You can directly run the typical nix flake commands instead of relying on the ju
 After setting up a basic NixOS system, you can create a new derivation using this flake:
 
 ```bash
-sudo nixos-rebuild switch --flake 'github:pabloagn/rhodium#hostname'
+sudo nixos-rebuild switch --flake 'github:axle/rhodium#hostname'
 ```
 
 Where hostname is the target host you want to use. Consult the hosts directory for the full specification.
@@ -89,10 +89,10 @@ Clone the repository and test before committing to a full derivation:
 
 ```bash
 # Using HTTPS
-git clone https://github.com/pabloagn/rhodium
+git clone https://github.com/axle/rhodium
 
 # Using SSH
-git clone git@github.com:pabloagn/rhodium
+git clone git@github.com:axle/rhodium
 
 # Navigate to the directory
 cd rhodium

@@ -3,7 +3,7 @@
 # Check if correct number of arguments provided
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <username> <repo>"
-    echo "Example: $0 pabloagn kanso.nvim"
+    echo "Example: $0 axle kanso.nvim"
     exit 1
 fi
 

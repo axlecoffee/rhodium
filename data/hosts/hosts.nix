@@ -13,12 +13,12 @@
     };
 
     host_002 = {
-      hostname = "alexandria";
-      description = "Alexandria Host";
+      hostname = "axlecoffee";
+      description = "Axlecoffee Host";
       mainMonitor = {
         monitorID = "eDP-2";
         monitorResolution = "1920x1080";
-        monitorRefreshRate = "300";
+        monitorRefreshRate = "60";
         monitorScalingFactor = "1.0";
       };
       defaultLocale = "";
