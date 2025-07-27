@@ -26,7 +26,7 @@
   # Base
   # ---------------------------------
   # Kernel version
-  boot.kernelPackages = pkgs.linuxPackages_6_12; # Courtesy of fucking NVIDIA, they dont support latest kernel yet.
+  boot.kernelPackages = pkgs.linuxPackages_6_12; # NVIDIA compatibility
 
   # Host Configuration
   networking = {
