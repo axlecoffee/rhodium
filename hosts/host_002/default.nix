@@ -30,7 +30,7 @@
 
   # Host Configuration
   networking = {
-    hostName = host.hostname or "nixos";
+    hostName = "alexandria";
     networkmanager.enable = true;
   };
 

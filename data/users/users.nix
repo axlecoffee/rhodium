@@ -1,9 +1,9 @@
 {
   users = {
     user_001 = {
-      username = "pabloagn";
-      fullName = "Pablo Aguirre";
-      emailMain = "pablo.aguirre@protonmail.com";
+      username = "axle";
+      fullName = "Axle";
+      emailMain = "axle@example.com";
       extraGroups = [
         "wheel"
         "networkmanager"
